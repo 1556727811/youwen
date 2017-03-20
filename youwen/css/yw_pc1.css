@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  color: #000000;
+  font-size: 15px;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  height: 90px;
+  margin: 0 auto;
+}
+.header_r {
+  float: right;
+  width: 800px;
+}
+.header_r li {
+  height: 90;
+  text-align: center;
+  line-height: 90px;
+  float: left;
+}
+.header_r li a {
+  width: 80px;
+  height: 87px;
+  display: inline-block;
+}
+.header_r li a:hover {
+  border-bottom: 3px solid #F56868;
+  color: #F56868;
+}
+.header_r li a:hover,
+.header_r li .pl {
+  border-bottom: 3px solid #F56868;
+  color: #F56868;
+}
+.logo {
+  float: left;
+  margin-top: 30px;
+}
+.header_r li:last-child {
+  float: rigth;
+  padding-left: 20px;
+  background: url(../images/phone.png) no-repeat left center;
+  margin-left: 15px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #FFFFFF;
+}
+.fixed {
+  width: 100%;
+  height: 60px;
+  min-width: 1200px;
+  background: #4c4c4c;
+}
+.fixed_k {
+  width: 1200px;
+  margin: 0 auto;
+}
+.fixed_2 {
+  width: 100%;
+  min-width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  background: #333;
+}
+.fixed_2 p {
+  width: 100%;
+  min-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 40px;
+}
+.fixed_2 a {
+  display: block;
+  width: 400px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: url(../images/beian.png) no-repeat;
+  background-size: 20px;
+}
+#form1 {
+  float: left;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+#form1 input {
+  width: 210px;
+  height: 32px;
+  border: 1px solid #fff;
+  margin-top: 14px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+#form1 p:first-child {
+  margin-left: 10%;
+}
+#form1 p {
+  float: left;
+}
+#form1 select {
+  float: left;
+  font-size: 12px;
+  width: 90px;
+  height: 34px;
+  border: none;
+  margin-top: 14px;
+  margin-left: 5px;
+}
+#submit {
+  float: left;
+  width: 125px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #FF000E;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
+.fixed_2 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.sel {
+  width: 100%;
+  height: 100%;
+  background: url(../images/teachidea/banner.png);
+  background-size: 100% 100% ;
+}
+.sel .ell {
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 180px;
+  text-align: center;
+}
+.p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-top: 30px;
+}
+.sel .ell p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-top: 30px;
+}
+.sp {
+  font-size: 40px;
+  color: #ff000e;
+  display: block;
+}
+.sel .ell span {
+  font-size: 40px;
+  color: #ff000e;
+  display: block;
+  margin-top: 50px;
+}
+.btn {
+  width: 190px;
+  height: 60px;
+  display: block;
+  background: #ff000e;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+}
+.se2 {
+  width: 100%;
+  height: 100%;
+  background: url(../images/teachidea/cont1bg.png) no-repeat;
+  background-position: center 20px ;
+}
+.se2 p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+}
+.se3 {
+  width: 100%;
+  height: 100%;
+  background: url(../images/teachidea/cont2bg.png) no-repeat;
+  background-position: center center;
+}
+.se3 p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-top: 30px;
+  color: #4ba8ff;
+}
+.se4 {
+  width: 100%;
+  height: 100%;
+  background: url(../images/teachidea/cont2bg.png) no-repeat;
+  background: url(../images/teachidea/cont3bg.png) no-repeat;
+  background-position: center center;
+}
+.se4 p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-top: 30px;
+  color: #78d432;
+}
+.se5 {
+  width: 100%;
+  height: 100%;
+  background: url(../images/teachidea/cont2bg.png) no-repeat;
+  background: url(../images/teachidea/cont4bg.png) no-repeat;
+  background-position: center center;
+}
+.se5 p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-top: 30px;
+  color: #ffa800;
+}
+.mg {
+  width: 100%;
+  height: 100%;
+  background: url(../images/teachidea/cont2bg.png) no-repeat;
+  background: url(../images/banner.png) no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.mg p {
+  width: 190px;
+  height: 60px;
+  display: block;
+  background: #ff000e;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: absolute;
+  right: 170px;
+  bottom: 200px;
+}
+.muma {
+  width: 100%;
+  height: 100%;
+}
